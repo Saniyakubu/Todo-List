@@ -131,6 +131,7 @@
   font-weight: 700;
   cursor: pointer;
   gap: 10px;
+  flex: 1;
   transition: all ease-in-out 1s;
 }
 
