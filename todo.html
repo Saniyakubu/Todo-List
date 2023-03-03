@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="icon"
+      href="https://cdn4.iconfinder.com/data/icons/3d-office-illustrations-set/256/Todo_List.png"
+    />
+
+    <title>task list</title>
+    <link rel="stylesheet" href="css/todo.css" />
+    <script defer src="./js/todo.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <div class="form-control">
+          <p class="alert"></p>
+          <h1 class="title">tasks list</h1>
+          <input id="input" class="input" type="text" />
+          <button type="submit" class="submit-btn">Submit</button>
+        </div>
+      </form>
+
+      <div class="filter">
+        <input
+          type="text"
+          class="form-input-filter"
+          id="filter"
+          placeholder="Filter Items..."
+        />
+      </div>
+
+      <div class="tasks-list">
+        <ul id="item-list" class="items">
+          <!-- <li>
+            books
+            <div class="btns">
+              <button class="icon-btn">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <button class="icon-btn">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </button>
+            </div>
+          </li>
+
+          <li>
+            yrss
+            <div class="btns">
+              <button class="icon-btn">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <button class="icon-btn">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </button>
+            </div>
+          </li>
+          <li>
+            yrsshdh
+            <div class="btns">
+              <button class="icon-btn">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <button class="icon-btn">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </button>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+      <button class="delete-all">clear all</button>
+    </div>
+  </body>
+</html>
